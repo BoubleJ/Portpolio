@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <>
       <div className="h-28 bg-yellow-300 w-full">
-        <div className="flex justify-evenly">
+        <div className="flex justify-around">
           {Menu.map((val, idx) => {
             return (
               <div key={idx} className="my-3">
